@@ -38,7 +38,7 @@ fileprivate extension View {
     func movieThumbnailViewFrame(thumbnailType: MovieThumbnailType) -> some View {
         switch thumbnailType {
         case .poster:
-            self.frame(width: 204, height: 306)
+            self.frame(width: 306, height: 510)
         case .backdrop:
             self
                 .aspectRatio(16/9, contentMode: .fit)
